@@ -119,7 +119,7 @@ you can choose either running the original `app.py` or use the refactored code a
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/fairy-root/steam-depot-online.git
+git clone https://github.com/zimorok/steam-depot-online.git
 cd steam-depot-online
 ```
 
