@@ -1,3 +1,14 @@
+# How to use with this one?
+you can choose either running the original `app.py` or use the refactored code and run `main.py` instead.
+
+## Key Improvement
+- detach the UI from the business logic so any the GUI part can be anything. Probably will use `eel` later to use HTML/JS instead for easier GUI Styling
+- **WARNING**: if you choose to run `main.py`, this will uses a different source of Steam AppID list. It will be updated with new game release but expect it NOT WORKING as it might be missing the Decryption and Manifest. Sometime it may download the LUA file but Steam probably will give you <span style="color:red"> **Content Still encrypted**</span> error
+- Steam APP ID will be downloaded locally to speed up the initial run. So far, auto updating the local cache is still WIP. so to update, just **delete** your `steam_app_cache.json` before running the `main.py` and it will automatically download the latest version
+- Downloading the manifest is slightly faster compared with `app.py` as it run multiple download process at once (max 10) if your game contain multiple manifest data.
+
+# ---------------------------------
+
 # Steam Depot Online (SDO)
 
 <div align="center">
