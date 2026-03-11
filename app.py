@@ -374,7 +374,7 @@ class ManifestDownloader(ctk.CTk):
         try:
             async with aiohttp.ClientSession() as session:
                 async with session.get(
-                    "https://raw.githubusercontent.com/dgibbs64/SteamCMD-AppID-List/main/steamcmd_appid.json",
+                    "https://github.com/jsnli/steamappidlist/raw/refs/heads/master/data/games_appid.json",
                     timeout=aiohttp.ClientTimeout(total=30),
                 ) as response:
                     if response.status == 200:
