@@ -7,7 +7,6 @@ you can choose either running the original `app.py` or use the refactored code a
 - Steam APP ID will be downloaded locally to speed up the initial run. So far, auto updating the local cache is still WIP. so to update, just **delete** your `steam_app_cache.json` before running the `main.py` and it will automatically download the latest version
 - Downloading the manifest is slightly faster compared with `app.py` as it run multiple download process at once (max 10) if your game contain multiple manifest data.
 
-# ---------------------------------
 
 # Steam Depot Online (SDO)
 
